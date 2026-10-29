@@ -1,0 +1,59 @@
+{
+  "ml_only_0.50": {
+    "precision": 0.9854014598540146,
+    "recall": 0.9712230215827338,
+    "f1": 0.9782608695652174,
+    "false_alarms": 2,
+    "missed_scams": 4,
+    "tp": 135,
+    "tn": 908,
+    "roc_auc": 0.9983793185232035,
+    "avg_precision": 0.9944341067503207
+  },
+  "ml_only_tuned": {
+    "precision": 1.0,
+    "recall": 0.7410071942446043,
+    "f1": 0.8512396694214877,
+    "false_alarms": 0,
+    "missed_scams": 36,
+    "tp": 103,
+    "tn": 910,
+    "roc_auc": 0.9983793185232035,
+    "avg_precision": 0.9944341067503207
+  },
+  "hybrid_tuned": {
+    "precision": 1.0,
+    "recall": 0.7553956834532374,
+    "f1": 0.860655737704918,
+    "false_alarms": 0,
+    "missed_scams": 34,
+    "tp": 105,
+    "tn": 910,
+    "roc_auc": 0.9983793185232035,
+    "avg_precision": 0.9944341067503207
+  },
+  "india_slice": {
+    "n": 12,
+    "ml_only": {
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "f1": 0.7272727272727273,
+      "false_alarms": 0,
+      "missed_scams": 3,
+      "tp": 4,
+      "tn": 5
+    },
+    "hybrid": {
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.9230769230769231,
+      "false_alarms": 0,
+      "missed_scams": 1,
+      "tp": 6,
+      "tn": 5
+    }
+  },
+  "threshold": 0.9827491305201967,
+  "n_train": 4192,
+  "n_test": 1049
+}
